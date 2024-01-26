@@ -3,8 +3,8 @@ on: [push]
 
 jobs:
   build:
-    name: Test
-    runs-on: ubuntu-latest
+    name: satyasahoo
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
 
